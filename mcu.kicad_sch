@@ -5952,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif_Espressif:ESP32-C3-MINI-1_HandSoldering"
+		(property "Footprint" "Espressif_Espressif:ESP32-C3-MINI-1"
 			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)

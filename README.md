@@ -2,7 +2,7 @@
 
 # anyPLC
 
-**Compact 53 × 53 mm, 4-Layer ESP32-C3 Industrial PWM & Telemetry Controller for ESPHome**
+**Compact 50 × 50 mm, 4-Layer ESP32-C3 Industrial PWM & Telemetry Controller for ESPHome**
 
 [![Hardware](https://img.shields.io/badge/Hardware-Rev%201.1-blue.svg)](#hardware-revisions)
 [![KiCad](https://img.shields.io/badge/Designed%20in-KiCad%2010-314CB0.svg)](https://www.kicad.org/)
@@ -14,7 +14,7 @@
 
 <img src="docs/images/anyPLC_front_raytrace.png" alt="anyPLC Rev 1.1 Front PCB Raytraced Render" width="520">
 
-*Raytraced 3D render of the **anyPLC Rev 1.1** front side (53 × 53 mm, 4-layer PCB)*
+*Raytraced 3D render of the **anyPLC Rev 1.1** front side (50 × 50 mm, 4-layer PCB)*
 
 </div>
 
@@ -55,7 +55,7 @@ It is engineered for reliable, closed-loop control of **12–24 V DC loads** in 
 | **Expansion Ports** | Dedicated **I2C** (`J2`, onboard 4.7 kΩ pull-ups `R9`/`R10`) and **UART** (`J3`, 100 Ω series resistors `R11`/`R12`), protected by **SRV05-4** ESD diode array (`U6`) |
 | **Hardware Watchdog** | External **STWD100** watchdog timer (`U5`) tied to MCU `EN`, with hardware enable/disable solder jumper (`JP1`, 4.7 kΩ pull-up `R_WD_EN1`) |
 | **Status & Debug** | Addressable RGB status LED (`D_RGB1`, WS2812-type) and 2×4 pogo-pad programming/debug interface (`J6`) exposing UART, native USB, `EN`, and `BOOT` |
-| **PCB Form Factor** | **53 × 53 mm**, 4-layer stackup (`F.Cu` / `GND` / `Power` / `B.Cu`), 1.6 mm FR-4, teardrops, and dual-sided fiducials for automated PCBA |
+| **PCB Form Factor** | **50 × 50 mm**, 4-layer stackup (`F.Cu` / `GND` / `Power` / `B.Cu`), 1.6 mm FR-4, teardrops, and dual-sided fiducials for automated PCBA |
 
 ---
 
@@ -127,7 +127,7 @@ Read these before assembly, flashing, or field deployment:
 
 ## PCB Manufacturing & DFM
 
-* **Dimensions:** 53.0 × 53.0 mm
+* **Dimensions:** 50.0 × 50.0 mm
 * **Layers:** 4 layers (`F.Cu` Signal / `In1.Cu` Solid GND / `In2.Cu` Split Power `+V_IN_MAIN`, `+5V`, `+3.3V` / `B.Cu` Signal)
 * **Design Rules:** Verified against JLCPCB 4-layer standard capabilities (min clearance 0.125 mm, min track 0.15 mm, standard vias 0.50 mm / 0.30 mm drill, `U2` thermal pad vias 0.20 mm drill)
 * **DFM Features:** Teardrops enabled on pads and vias, 3+3 asymmetric fiducial markers (`F.Cu` and `B.Cu`), tented vias, `JLCJLCJLCJLC` order-number placeholder on `B.Silkscreen`
