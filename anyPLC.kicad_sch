@@ -1,0 +1,860 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "012d7c75-0301-4e8b-ae04-339502646a3a")
+	(paper "A4")
+	(title_block
+		(title "ESPHome controlled 'PLC' like board")
+		(date "2026-11-17")
+		(rev "1.1")
+		(company "Roland Kovacs")
+	)
+	(lib_symbols)
+	(junction
+		(at 109.22 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f96be6a-ce90-4c19-92f5-23729ecfe707")
+	)
+	(junction
+		(at 109.22 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e2456c7-c94e-4fd3-894d-08b6406cbc02")
+	)
+	(junction
+		(at 95.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a82117-c09e-4286-9017-b8d03fd84bdc")
+	)
+	(junction
+		(at 95.25 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccf794f3-e507-4477-aa34-f55dc1c10253")
+	)
+	(wire
+		(pts
+			(xy 179.07 124.46) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b52ae0-2f57-468c-82eb-55db8cbd352f")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06755838-61ec-43f4-97c6-5b0ffd79ab19")
+	)
+	(wire
+		(pts
+			(xy 179.07 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094c7846-7339-49be-b252-71757227cd8c")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c5105e-5701-4eec-9076-37b02ddb6690")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158faec1-d37d-4bfe-9296-3256fb98e71b")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16addb6b-6875-4815-9322-4ba599b72da9")
+	)
+	(wire
+		(pts
+			(xy 81.28 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce2621f-d6d8-4797-a7cd-952d3a1fc60a")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f518d54-d7a6-4ee6-a8d5-2e1f35afaf65")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 101.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324d34a5-85c9-4324-9019-fd4eaa94bb44")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bce2e4-b7df-44a5-949b-ebb88170ebc8")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f441cee-6645-473c-a9bc-1633c78ccdef")
+	)
+	(wire
+		(pts
+			(xy 179.07 127) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d8e6c3-20ae-4457-9fa4-5873847c4de6")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d59d16-4fe5-4a60-8564-dddc6263c3f0")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bf8ee8-cd65-42cf-867c-cfbfcc8bcfe5")
+	)
+	(wire
+		(pts
+			(xy 81.28 151.13) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6966fe4b-f465-475f-9411-d81e1d307769")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ca26f7-22c8-42c8-a8e1-fc24b55b8a95")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e6b65d-2f4c-4602-8c8a-eaa2a8a967c6")
+	)
+	(wire
+		(pts
+			(xy 83.82 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2b5b91-60da-405c-a15f-fcd24ef0d936")
+	)
+	(wire
+		(pts
+			(xy 78.74 151.13) (xy 81.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918f686e-2727-4805-8ab4-37d8603ed17f")
+	)
+	(wire
+		(pts
+			(xy 109.22 87.63) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973df062-7d37-43e7-bc98-9807c3c46bd4")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c53e07-4358-4b16-b55a-746a95cf81f9")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 83.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e2914d-7e15-4f4a-8718-f7fad2563ee7")
+	)
+	(wire
+		(pts
+			(xy 179.07 119.38) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f331ee-4698-4f57-9603-9ecce92b09ea")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cabedc-ed02-46c0-ac2e-34e9152d141c")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea73aae-ce29-414a-8dcc-5078df34740c")
+	)
+	(wire
+		(pts
+			(xy 115.57 116.84) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59a0e84-114c-4546-ba03-d4517e126e31")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 99.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a01a43-31eb-4cbb-9c7d-0d0d9148f4c0")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e640941d-5be5-4fb7-8d7a-bdb5f9f81ccd")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75bc068-7b4b-483a-921c-829942bcaf03")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ff855e-499e-434f-9fa8-ead1aaa1aba7")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 113.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8f8e10-b6b2-4412-9781-5870b2c83791")
+	)
+	(wire
+		(pts
+			(xy 83.82 153.67) (xy 83.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3cb964-e49a-4960-ad69-9d1a98051008")
+	)
+	(sheet
+		(at 62.23 57.15)
+		(size 46.99 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31e5314f-0a96-439d-ab14-a8a392cd546c")
+		(property "Sheetname" "Power Input"
+			(at 62.23 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerinput.kicad_sch"
+			(at 62.23 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 109.22 85.09 0)
+			(uuid "ae5a21d8-aed3-4f69-bc95-4369f5150b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 109.22 87.63 0)
+			(uuid "5b59f167-ab9b-4018-bfb0-11f84cb5dfad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INA_ALERT" input
+			(at 109.22 73.66 0)
+			(uuid "718d4879-3d8e-47b4-b0b3-5733adae5583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 142.24)
+		(size 39.37 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "389120f0-ca63-418a-839a-f4c41d6ac2c1")
+		(property "Sheetname" "Mount and Test-Points"
+			(at 39.37 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mount_tp.kicad_sch"
+			(at 39.37 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 78.74 151.13 0)
+			(uuid "05aef877-5e3a-46a3-ba5c-a35a7a32cbb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 78.74 153.67 0)
+			(uuid "40361412-cfe9-4e1e-937f-54700abf2bec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 33.02)
+		(size 46.99 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6936b7e4-e6e1-4f47-8bf1-254b0da3bcdf")
+		(property "Sheetname" "Power Regulators"
+			(at 166.37 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerreg.kicad_sch"
+			(at 166.37 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 93.98)
+		(size 46.99 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9855c460-1bb7-4126-9654-982e570d5c82")
+		(property "Sheetname" "MCU Core"
+			(at 132.08 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 132.08 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 132.08 96.52 180)
+			(uuid "7ded2e56-d0ea-4c47-8652-2f973623ef72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 132.08 99.06 180)
+			(uuid "f21b4e57-7dee-44be-bb50-e97bf4f34433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA_ALERT" input
+			(at 149.86 93.98 90)
+			(uuid "60bcc364-4c34-49ae-aa0c-650c7bc656a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_CH1" input
+			(at 179.07 127 0)
+			(uuid "eae2d242-b590-4756-be65-7e30ca63c1d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_CH2" input
+			(at 179.07 124.46 0)
+			(uuid "d0686b05-aa64-4d19-96b1-808fc0ce2ab2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACHO_CH1" input
+			(at 179.07 121.92 0)
+			(uuid "5de8673d-cd5c-4467-b8d6-b173f28c3402")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACHO_CH2" input
+			(at 179.07 119.38 0)
+			(uuid "5c765ce3-fed3-4c6f-9d93-fddf6aa0bd73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 132.08 114.3 180)
+			(uuid "353af325-b4ba-4988-8606-4315db62a813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 132.08 116.84 180)
+			(uuid "1108168b-2ca9-4724-826a-96243da3e59a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 82.55)
+		(size 57.15 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b465859b-487d-453c-8eaf-5142bcd9aaec")
+		(property "Sheetname" "Power Outputs"
+			(at 200.66 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "p_outs.kicad_sch"
+			(at 200.66 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM_CH1" input
+			(at 200.66 127 180)
+			(uuid "0bd45d54-cf92-4e13-be02-b41eaf62691f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_CH2" input
+			(at 200.66 124.46 180)
+			(uuid "d3872263-f7cf-4839-8979-ad6bbc485e98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TACHO_CH1" input
+			(at 200.66 121.92 180)
+			(uuid "73324614-6427-4241-bfc7-bdbed98dab79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TACHO_CH2" input
+			(at 200.66 119.38 180)
+			(uuid "288751a9-b2e7-4f29-962d-8e2d08da7e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 106.68)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c25e8fbb-c490-4a92-8bfe-726358355875")
+		(property "Sheetname" "Sensors Telemetry"
+			(at 53.34 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sen_tem.kicad_sch"
+			(at 53.34 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 95.25 111.76 0)
+			(uuid "6030861c-db4c-45b5-8d6c-b814ae8d5c71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 95.25 114.3 0)
+			(uuid "409c9096-00ed-49e7-bc4d-0d1c04c3b97e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 95.25 120.65 0)
+			(uuid "72e95022-8368-4668-8fbf-571b8e12c32c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 95.25 123.19 0)
+			(uuid "3ce59596-77b1-45da-8408-dbf21860eeb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "anyPLC"
+				(path "/012d7c75-0301-4e8b-ae04-339502646a3a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

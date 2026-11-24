@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "STWD100NYWY3F") (type "KiCad") (uri "${KIPRJMOD}/external_parts/STWD100NYWY3F/STWD100NYWY3F.kicad_sym") (options "") (descr ""))
+)
